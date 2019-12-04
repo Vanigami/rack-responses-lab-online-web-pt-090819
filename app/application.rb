@@ -1,10 +1,10 @@
 require 'rubygem'
 require 'sinatra'
 
-get '/' do 
+get '/' do
   "Good Morning!"
 end
 
-get '/' do 
+get '/' do
   "Good Afternoon!"
 end
