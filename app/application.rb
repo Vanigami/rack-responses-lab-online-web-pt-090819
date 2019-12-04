@@ -1,10 +1,5 @@
-require 'rubygem'
-require 'sinatra'
+class Application 
 
-get '/' do
-  "Good Morning!"
-end
-
-get '/' do
-  "Good Afternoon!"
-end
+  def call(env)
+     resp = Response::application
+     
